@@ -1,0 +1,15 @@
+// Libs
+// Platform-specific:
+export 'stub.dart' // Non-web
+    if (dart.library.io) 'dart:io';
+
+export 'stub.dart' // Web
+    if (dart.library.js_interop) 'dart:js_interop';
+
+// Crossplatform:
+// Avoid Flutter, minimal Dart by design.
+// import 'package:flutter/foundation.dart';
+import "modules/utils.dart";
+export "modules/utils.dart";
+
+// EOF
