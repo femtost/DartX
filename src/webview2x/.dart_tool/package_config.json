@@ -1,0 +1,22 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "ffi",
+      "rootUri": "file:///C:/Users/dandq/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
+    },
+    {
+      "name": "webview_app",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    }
+  ],
+  "generator": "pub",
+  "generatorVersion": "3.13.2",
+  "flutterRoot": "file:///C:/Flutter/flutter",
+  "flutterVersion": "3.47.2",
+  "pubCache": "file:///C:/Users/dandq/AppData/Local/Pub/Cache"
+}
