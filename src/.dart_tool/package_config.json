@@ -1,0 +1,40 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "ffi",
+      "rootUri": "file:///C:/Users/dandq/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
+    },
+    {
+      "name": "ffi_leak_tracker",
+      "rootUri": "file:///C:/Users/dandq/AppData/Local/Pub/Cache/hosted/pub.dev/ffi_leak_tracker-0.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.10"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///C:/Users/dandq/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.19.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "win32",
+      "rootUri": "file:///C:/Users/dandq/AppData/Local/Pub/Cache/hosted/pub.dev/win32-6.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.10"
+    },
+    {
+      "name": "app",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    }
+  ],
+  "generator": "pub",
+  "generatorVersion": "3.13.2",
+  "flutterRoot": "file:///C:/Flutter/flutter",
+  "flutterVersion": "3.47.2",
+  "pubCache": "file:///C:/Users/dandq/AppData/Local/Pub/Cache"
+}

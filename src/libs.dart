@@ -12,4 +12,7 @@ export 'stub.dart' // Web
 import "modules/utils.dart";
 export "modules/utils.dart";
 
+import "modules/webview.dart";
+export "modules/webview.dart";
+
 // EOF

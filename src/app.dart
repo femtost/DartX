@@ -5,10 +5,14 @@ var ____CLASS____;
 
 // App class
 class App {
+    WebView_ screen = WebView_();
     
+    // Ctor
+    App();
+
     // Start the app
     void start(){
-        //
+        screen.create();
     }
 }
 

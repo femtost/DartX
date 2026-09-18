@@ -28,6 +28,35 @@ Run command:
   - cd src && run.ps1 PLATFORM-NAME
 
 
+# Dependencies
+
+Android
+  - *Note*: To find webview.dll equivalent, or Android native
+
+iOS
+  - *Note*: To find webview.dll equivalent, or iOS native
+
+Windows
+  - `webview.dll`: github.com/webview/webview
+      - Use 'pip install webview_python'
+      - Run 'python', import webview_python once or twice
+      - Go to the pip package webview_python to get *webview.dll & WebView2Loader.dll*
+
+macOS
+  - `webview.dylib`: Use the same method of webview.dll to get
+
+Linux
+  - `webview.so`: Use the same method of webview.dll to get
+
+Web
+  - `Iframe Tag`: Instead of webview
+
+Legacy 
+  - `WebView2Loader.dll` from https://www.nuget.org/api/v2/package/Microsoft.Web.WebView2/1.0.4191.47
+      - Download, change to .zip, find the DLL file
+      - Use name WebView2Loader.nuget.dll to avoid confusion with the one by webview_python
+
+
 # Conventions
 
 Class naming:

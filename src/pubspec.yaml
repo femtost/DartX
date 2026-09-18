@@ -1,4 +1,9 @@
 name: app
 version: 0.1.0
+
 environment:
-    sdk: ">=3.0.0"
+    sdk: ">=3.1.0" 
+
+dependencies:
+    ffi: ^2.2.0
+    win32: ^6.4.0
