@@ -22,13 +22,20 @@ Frontend (WebView)
 
 # How to Use
 
-Clone this repo, itself is an app.
+Start point
+  - Clone/fork this repo, itself is an app.
+
+Update
+  - Git pull from this original repo.  
 
 Run command:
   - cd src && run.ps1 PLATFORM-NAME
 
 
 # Dependencies
+
+All platforms
+  - `Dart`: Built-in libraries
 
 Android
   - *Note*: To find webview.dll equivalent, or Android native

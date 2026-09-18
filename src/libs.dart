@@ -15,4 +15,7 @@ export "modules/utils.dart";
 import "modules/webview.dart";
 export "modules/webview.dart";
 
+import "modules/fs.dart";
+export "modules/fs.dart";
+
 // EOF

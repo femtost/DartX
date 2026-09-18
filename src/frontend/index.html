@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>DartX App</title>
+    </head>
+    <body>
+        <div style="padding-left:25vw; padding-right:25vw;">
+            <h1>DartX App</h1>
+            <hr>
+            <div>
+                This is a sample DartX app.
+            </div>
+        </div>
+    </body>
+    <script>
+        var log = console.log;
+        window.addEventListener("load",async()=>{
+            var res = await window.foobar("abc",123);
+            document.querySelector("body").innerHTML = res;
+        });
+    </script>
+</html>
