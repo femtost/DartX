@@ -43,6 +43,9 @@ class App {
         },receiver.sendPort);
 
         // THIS COMMENT IS OUTDATED, SEE FIX IN webview2x FOLDER.
+        // Key points
+        //   - When webview.dll is in isolate, every FFI funcs must be in there
+        //   - Use create ReceivePort inside and outside for communication.
         // ------------------------------------------------------
         // WebView_ MUST hold the main thread for Dart<->JS communication to work,
         // unsure reason but tested, WebView2 comm won't function in Isolate.
