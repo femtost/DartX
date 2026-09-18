@@ -42,6 +42,8 @@ class App {
             // todo
         },receiver.sendPort);
 
+        // THIS COMMENT IS OUTDATED, SEE FIX IN webview2x FOLDER.
+        // ------------------------------------------------------
         // WebView_ MUST hold the main thread for Dart<->JS communication to work,
         // unsure reason but tested, WebView2 comm won't function in Isolate.
         // *****************************************************************
