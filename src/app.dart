@@ -33,14 +33,14 @@ class App {
         // Load frontend
         var html = await Fs.readFile("./frontend/bundle.html");        
 
-        // Backend thread
-        var receiver = ReceivePort(); 
-        receiver.listen((map){
-            // todo
-        });
-        Isolate.spawn((SendPort sendPort){
-            // todo
-        },receiver.sendPort);
+        // // Backend thread
+        // var receiver = ReceivePort(); 
+        // receiver.listen((map){
+        //     // todo
+        // });
+        // Isolate.spawn((SendPort sendPort){
+        //     // todo
+        // },receiver.sendPort);
 
         // THIS COMMENT IS OUTDATED, SEE FIX IN webview2x FOLDER.
         // Key points
@@ -60,7 +60,18 @@ class App {
         //   - webview_bind binds to Dart func
         //   - Inside the bound Dart func, can't call webview_return directly
         //   - Inside the found Dart func, do webview_dispatch
-        WebView_.create(funcs,html); // Don't await here, no use.       
+        var receiver = ReceivePort();
+        receiver.listen((data){
+            //
+        });
+
+        Map<String,dynamic> data = {
+            "outer": receiver.sendPort
+        };
+        Isolate.spawn((data){
+            print("Spawning WebView thread...");
+            WebView_.create(funcs,html); // Don't await here, no use.       
+        },data);
     }
 }
 

@@ -340,10 +340,10 @@ class WebView_ {
         webviewNavigate(webview, urlPointer.cast<Char>());
         calloc.free(urlPointer);
         
-        // Read console to change url
-        await Isolate.spawn(
-            stdinListener, config
-        );
+        // // Read console to change url
+        // await Isolate.spawn(
+        //     stdinListener, config
+        // );
 
         // 5. Start the blocking Win32 window message loop
         print("Opening WebView2 window...");
